@@ -1,20 +1,19 @@
 package siccaDania.client.ui;
 
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.dom.client.Element;
-import com.google.gwt.dom.client.SpanElement;
 import com.google.gwt.uibinder.client.UiBinder;
-import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.UIObject;
+import com.google.gwt.user.client.ui.Widget;
 
-public class StartScreen extends UIObject {
+public class StartScreen extends Composite {
 
-	private static StartScreeUiBinder uiBinder = GWT.create(StartScreeUiBinder.class);
+	private static StartScreenUiBinder uiBinder = GWT.create(StartScreenUiBinder.class);
 
-	interface StartScreeUiBinder extends UiBinder<Element, StartScreen> {
+	interface StartScreenUiBinder extends UiBinder<Widget, StartScreen> {
 	}
 
-	
+	public StartScreen() {
+		initWidget(uiBinder.createAndBindUi(this));
+	}
 
 }
