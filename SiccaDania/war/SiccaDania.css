@@ -1,34 +1,72 @@
 /** Add css rules here for your application. */
 
-
-/** Example rules used by the template application (remove for your app) */
-h1 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #777777;
-  margin: 40px 0px 70px;
-  text-align: center;
+.navBar{
+    width: auto;
+    height: 100px;
+    margin-left: 10px;
+    text-align: left;
 }
 
-.sendButton {
-  display: block;
-  font-size: 16pt;
+.navBtn{
+    color: black;
+    margin-top: 5px;
+    display: inline-block;
+
 }
 
-/** Most GWT widgets already have a style name defined */
-.gwt-DialogBox {
-  width: 400px;
+.infoBox{
+  padding-left: 40px;
+  width: 20%;
+  height: 100%;
+  border-right: 2px solid #535353;
 }
 
-.dialogVPanel {
-  margin: 5px;
+.line{
+    border: 1px solid #535353;
+    width: 90%;
 }
 
-.serverResponseLabelError {
-  color: red;
+.infoBtn{
+    width: 60%;
+    height: 10%;
+    margin-left: 15%;
+    margin-top: 5%;
+
 }
 
-/** Set ids using widget.getElement().setId("idOfElement") */
-#closeButton {
-  margin: 15px 6px 6px;
+
+
+#nav{
+    Background-color: rgb(85, 166, 205);
+
 }
+
+#nav-wrapper{
+    width: auto;
+    height: 100px;
+
+
+}
+
+#nav ul{
+    list-style-type: none;
+    position: relative;
+
+}
+
+#nav ul li{
+    display: inline-block;
+    background-color: #63afcd;
+    margin-top: 40px;
+    height: 30%;
+    width: 10%;
+    text-align: center;
+
+}
+
+#nav ul li:hover{
+    background-color: #2a89cd;
+
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	
+	
+	<div id="nav">
+
+    <div id="nav-wrapper">
+
+        <ul class="navBar">
+            <li><a href="" class="navBtn" id="ManageProject">Manage project</a></li>
+
+        </ul>
+    </div>
+
+</div>
+
+    <form class="leftbox">
+        <div class="infoBox">
+            <p><h6>Project no: &nbsp; &nbsp;  DAN1111</h6></p>
+            <p><h6>Customer:  &nbsp; &nbsp;  Cust A/S</h6></p>
+            <p><h6>Plant type: &nbsp; &nbsp;  Spray dreyer</h6></p>
+            <p><h6>PM / doc: &nbsp; &nbsp;   Resp: XX/XX/XXXX</h6></p>
+            <p><h6>Language:  &nbsp; &nbsp;  ENG</h6></p>
+
+            <hr class="line"></hr>
+
+            <p><h6>Max Sheets per book:: &nbsp; &nbsp;  340</h6></p>
+            <p><h6>No of books:  &nbsp; &nbsp;  000</h6></p>
+
+            <hr class="line"></hr>
+
+            <button class="infoBtn" > Print </button>
+            <button class="infoBtn" > Merge files </button>
+            <button class="infoBtn" > Print Project </button>
+            <button class="infoBtn" > Create frontpage </button>
+            <button class="infoBtn" > Create spines </button>
+            <button class="infoBtn" > Crete TOC </button>
+
+
+        </div>
+
+
+    </form>
+
+</ui:UiBinder>
